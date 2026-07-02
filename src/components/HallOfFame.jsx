@@ -1,0 +1,4 @@
+import { motion } from 'framer-motion'
+import { BadgeCheck, Clock3, Eye, Shirt } from 'lucide-react'
+const icons=[Shirt,Clock3,Eye]
+export default function HallOfFame({t}){return <section id="fame" className="section shell"><div className="section-kicker">04 / INCIDENT ARCHIVE</div><h2>{t.fameTitle}</h2><p className="section-sub">{t.fameSub}</p><div className="stories">{t.stories.map(([title,body,note],i)=>{const Icon=icons[i];return <motion.article className="story glass" key={title} whileHover={{y:-8}}><div className="story-cover"><div className="case-avatar">{['L','02','3x'][i]}</div><span className="case-badge"><BadgeCheck size={13}/> RESCUED</span><Icon size={31}/></div><div className="story-no">CASE 00{i+1}</div><h3>{title}</h3><p>{body}</p><small>{note}</small></motion.article>})}</div></section>}

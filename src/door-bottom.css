@@ -1,0 +1,5 @@
+.rating>strong{font-size:0}.rating>strong:after{content:'5.0';font:800 31px Manrope}
+.hero-copy{text-align:center}.hero-copy .meaning,.hero-copy .hero-actions{justify-content:center}.hero-copy .hero-sub{margin-inline:auto}
+.scroll-door .door-caption{bottom:0;left:50%;transform:translateX(-50%);width:max-content;padding:7px 12px;border:1px solid var(--line);border-radius:99px;background:rgba(8,10,18,.78);backdrop-filter:blur(10px)}
+@media(min-width:651px){.hero-split{display:block;min-height:auto}.hero-split .door-scene{margin-top:35px}.hero-copy{max-width:1000px;margin-inline:auto}}
+@media(max-width:650px){.hero{overflow:visible}.hero-split .door-scene{height:380px;width:100%;margin:24px auto 0;transform:scale(.78);transform-origin:center top}.scroll-door .door-frame{margin-inline:auto}.scroll-door .door{margin-left:0}.scroll-door .umut-card{right:6%;top:34%}.scroll-door .door-caption{bottom:14px;padding:5px 8px}.scroll-door:after{bottom:55px}}

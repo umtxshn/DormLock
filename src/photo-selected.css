@@ -1,0 +1,2 @@
+.photo-selected-label{color:#80dfa2!important;font-weight:700;overflow-wrap:anywhere}.photo-preview.has-photo{border-style:solid;border-color:rgba(128,223,162,.55);box-shadow:0 0 0 3px rgba(128,223,162,.08)}
+.review-form .photo-preview{display:grid!important;margin:0!important;position:relative;cursor:pointer}.photo-input-native{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;opacity:0!important;cursor:pointer;z-index:2}

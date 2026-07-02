@@ -1,0 +1,4 @@
+import { motion } from 'framer-motion'
+import { DoorClosed, KeyRound, PhoneCall, Sparkles } from 'lucide-react'
+const icons = [DoorClosed, KeyRound, PhoneCall, Sparkles]
+export default function OriginStory({ t }) { return <section id="origin" className="section shell origin-section"><div className="origin-copy"><div className="section-kicker">01 / ORIGIN STORY</div><h2>{t.originTitle}</h2><p className="section-sub origin-text">{t.originText}</p></div><div className="timeline"><motion.div className="timeline-progress" initial={{scaleY:0}} whileInView={{scaleY:1}} viewport={{once:true,amount:.3}} transition={{duration:1.1}}/>{t.timeline.map((item,i)=>{const Icon=icons[i];return <motion.article key={item} initial={{opacity:0,x:28}} whileInView={{opacity:1,x:0}} viewport={{once:true,amount:.5}} transition={{delay:i*.12}}><span className="timeline-icon"><Icon size={20}/></span><div><small>0{i+1}</small><h3>{item}</h3></div></motion.article>})}</div></section> }

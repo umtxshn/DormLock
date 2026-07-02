@@ -1,0 +1,5 @@
+@media(max-width:650px){
+ .scroll-door .door-frame:before{opacity:1;box-shadow:0 0 75px rgba(129,156,255,.55)}
+ .scroll-door .door{transform-origin:left center;will-change:transform}
+ .scroll-door .umut-card{z-index:5}
+}

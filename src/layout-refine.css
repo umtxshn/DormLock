@@ -1,0 +1,23 @@
+/* Tighter information architecture across desktop and tablet */
+@media(min-width:651px){
+ .hero{min-height:auto;padding-top:76px}
+ .hero h1{font-size:clamp(54px,7vw,88px)}
+ .door-scene{height:410px;margin-top:42px;margin-bottom:0;transform:scale(.88);transform-origin:center top}
+ .section{padding-block:88px}
+ .origin-section{gap:70px}
+ .timeline article{min-height:92px}
+ .stats,.pricing,.stories{margin-top:30px}
+ .price-card{min-height:295px}
+ .story-cover{height:110px}
+ .story h3{margin-top:15px}
+ .story p{min-height:60px}
+ .achievements{margin-top:28px}
+ .achievements article{padding:22px 25px}
+ .review-grid{margin-top:30px}
+ footer{padding-block:38px}
+}
+@media(min-width:901px){
+ .origin-copy .section-kicker{margin-top:0}
+ .origin-text{line-height:1.72}
+ .reviews-section{padding-top:78px}
+}

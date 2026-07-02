@@ -1,0 +1,28 @@
+@media(max-width:650px){
+ .hero{min-height:auto;padding-top:54px}
+ .hero-sub{line-height:1.55}
+ .hero-actions{margin-top:22px}
+ .door-scene{height:350px;margin-top:25px;margin-bottom:-25px}
+ .section{padding-block:58px}
+ .section-kicker{margin:0 0 10px}
+ .section h2{margin-bottom:9px}
+ .section-sub{line-height:1.6}
+ .origin-section{gap:22px}
+ .origin-text{line-height:1.65}
+ .timeline article{min-height:78px}
+ .stats,.pricing,.stories{margin-top:26px;gap:11px}
+ .stat{padding:20px 22px}
+ .stat strong{font-size:32px}
+ .price-card{min-height:225px;padding:21px}
+ .price-card h3{margin-top:14px}
+ .price-card>p{line-height:1.5;margin-block:8px 14px}
+ .story-cover{height:94px;margin-bottom:17px}
+ .story{padding-bottom:21px}
+ .story h3{margin:14px 0 6px}
+ .story p{min-height:0;margin:0 0 13px;line-height:1.55}
+ .achievements{margin-top:26px}
+ .achievements article{padding:20px}
+ .review-grid{margin-top:27px;gap:14px}
+ .review-card{padding:18px}
+ footer{padding-block:34px}
+}
