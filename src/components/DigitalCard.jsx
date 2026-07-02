@@ -1,7 +1,6 @@
 import { Instagram, KeyRound } from 'lucide-react'
 import { QRCodeSVG } from 'qrcode.react'
 import { featureTranslations } from '../data/featureTranslations'
-import { openInstagramProfile } from '../lib/instagramContact'
 
 export default function DigitalCard({ lang }) {
   const c = featureTranslations[lang] || featureTranslations.en
@@ -25,10 +24,14 @@ export default function DigitalCard({ lang }) {
           <p>{c.status}</p>
 
           <div className="digital-actions">
-            <button type="button" onClick={openInstagramProfile}>
+            <a
+              href="https://instagram.com/dormlock.app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Instagram />
-              @dormlock.app
-            </button>
+              dormlock.app
+            </a>
           </div>
         </div>
 

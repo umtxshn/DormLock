@@ -122,7 +122,7 @@ export default function Pricing({ t, lang }) {
                   <span><Instagram /></span>
                   <div>
                     <strong>{c.instagram}</strong>
-                    <small>@dormlock.app</small>
+                    <small>dormlock.app</small>
                   </div>
                 </a>
               </div>
