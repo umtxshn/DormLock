@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 import { Check, Clock3, CupSoda, Instagram, Moon, Sandwich, Sun, Sunset, X, Zap } from 'lucide-react'
-import { openInstagramProfile } from '../lib/instagramContact'
 
 const icons = [Sun, Sunset, Moon, Zap]
 
@@ -113,17 +112,19 @@ export default function Pricing({ t, lang }) {
               <p>{c.text}</p>
 
               <div className="contact-options single">
-                <button
-                  type="button"
-                  onClick={openInstagramProfile}
+                <a
+                  href="https://instagram.com/dormlock.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="contact-option instagram"
+                  aria-label="Open DormLock Instagram profile"
                 >
                   <span><Instagram /></span>
                   <div>
                     <strong>{c.instagram}</strong>
                     <small>@dormlock.app</small>
                   </div>
-                </button>
+                </a>
               </div>
             </motion.div>
           </motion.div>
